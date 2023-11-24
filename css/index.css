@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dadada;
+    position: relative;
+    height: 100vh;
+}
+.container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    margin: 2% auto;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    margin: 2rem 0;
+}
+form {
+    background: #ffffff8f;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="datetime-local"],
+input[type="date"],
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+button, a {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+button:hover, a:hover {
+    background-color: #0056b3;
+    transition: 0.3s ease;
+}
+button{
+    width: 20%;
+    margin-right: 15px;
+}
+.btn-group{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 4%;
+    text-align: center;
+    column-gap: 30px;
+}

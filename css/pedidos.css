@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dadada;
+    position: relative;
+    height: 100vh;
+}
+.container {
+    margin: 1% auto;
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    width: 80%;
+    height: 95%;
+    margin: 1% auto;
+    border:rgba(0, 0, 0, 0.3) 1px solid;
+    border-radius: 15px;
+}
+.container-today-orders{
+    position: relative;
+}
+.container-today-orders h1{
+    background-color: #0056b3;
+    font-family: cursive;
+    letter-spacing: 3px;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+}
+.today-orders{
+    text-align: center;
+}
+.today-orders h2{
+    margin-top: 1%;
+    text-align: center;
+}
+hr{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.today-table{
+    width: 90%;
+    height: 20vh;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-top: 5px;
+    background-color: #ffffff;
+    font-size: 14px;
+    border-radius: 10px 10px 0 0;
+    border-collapse: collapse;
+}
+.today-table thead th{
+    height: 2rem;
+    border-bottom: rgba(0, 0, 0, 0.5) 1px solid;
+}
+.date{
+    width: 33%;
+}
+.today-table tbody{
+    width: 100%;
+    max-height: calc(100% - 2rem);
+    overflow-y: auto;
+}
+.today-table tbody tr{
+    border-bottom: rgba(0, 0, 0, 0.6) 1px dotted;
+}
+.container-all-orders{
+    border: green 1px solid;
+}
+
+.orders-list {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.orders-list h3 {
+    margin-top: 0;
+}
+
+.filters {
+    margin-bottom: 15px;
+}
+
+#orderFilter {
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+.container-price{
+    border: black 1px solid;
+    position: relative;
+    bottom: 5%;
+    right: 10%;
+    width: 20%;
+    padding: 10px;
+}
