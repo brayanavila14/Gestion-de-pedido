@@ -23,13 +23,6 @@ $(document).ready(function() {
         $('#deliveryDate').focus(); 
     }
     });
-    
-    if (keyCode === 'f1') { 
-        pass
-    }
-    if (keyCode === 'F2') { 
-        inputClear();
-    }
     $('#btnClear').click(function(event) {
         event.preventDefault();
         inputClear();
