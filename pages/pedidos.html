@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedidos</title>
     <link rel="stylesheet" href="../css/pedidos.css">
+    <script src="../lib/jquery-3.7.0.js"></script>
 </head>
 <body>
     <div class="container">
         <div class="container-today-orders">
             <h1>Pedidos</h1>
             <div class="today-orders">
-                <h2>Pedidos Programados para Hoy <span class="dateTime">24\12\2312</span></h2>
+                <h2>Pedidos Programados para Hoy <span class="dateNow"></span></h2>
                 <hr>
                 <table class="today-table">
                     <thead>
@@ -108,9 +109,9 @@
                     </tbody>
                 </table>
                 <div class="container-info">
-                <label for="totalSale">Monto Total:</label>
-                <input type="number" id="totalSale" name="totalSale" required>
-            </div>
+                    <label for="totalSale">Monto Total:</label>
+                    <input type="number" id="totalSale" name="totalSale" required>
+                </div>
             </div>
         </div>
         <div class="container-all-orders">
@@ -189,6 +190,6 @@
         </div>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="../js/pedidos.js"></script>
 </body>
 </html>
